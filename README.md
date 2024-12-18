@@ -16,6 +16,8 @@ Before running the project, ensure you have the following tools, libraries, and 
    ```bash
    pip install -r requirements.txt
    ```
+## Dataset
+The dataset used is Kagglee's American Electric Power (AEP) dataset on hourly energy consumption
 
 ## Data Preprocessing and Feature Engineering
 
