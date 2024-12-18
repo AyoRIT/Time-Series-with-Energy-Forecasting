@@ -61,6 +61,7 @@ This section details the process of training the RNN model using the training da
 ### 1. **Data Preparation for Training**:
    - The data is split into training and validation sets using a time series-aware split.
    - Each data split is converted into PyTorch tensors and loaded into a `DataLoader` for batch processing.
+   - A number of different hyper parameters are also tested to selected the best hyper parameters for the model
 
 ### 2. **Training Loop**:
    - The training loop iterates over the number of epochs and batches in the training data.
