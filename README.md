@@ -91,3 +91,8 @@ This step focuses on using the trained model to make predictions on the test set
      1. **Mean Absolute Error (MAE)**: Measures average absolute difference between actual and predicted values.
      2. **Mean Absolute Percentage Error (MAPE)**: Represents prediction accuracy as a percentage.
      3. **Root Mean Squared Error (RMSE)**: Penalizes large prediction errors more heavily.
+    
+## Possible Enhancements
+- Features: Include time-based features or external factors (e.g., economic indicators).
+- Model Optimization: Experiment with activation functions
+- New Model: Implement an LSTM, Generative  Model using transformers to solve vanishing gradient problem
